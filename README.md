@@ -20,5 +20,7 @@ Result
 ## To include images
 ![boxplot](boxplot.png)
 
+![best_accuracy](best_accuracy.JPG)
+
 ## To include ur link
 https://www.google.com
