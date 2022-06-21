@@ -23,4 +23,4 @@ Result
 ![best_accuracy](best_accuracy.JPG)
 
 ## To include ur link
-https://www.google.com
+![click_me]('https://github.com/lingeswaran-ramachandran/Predict_Heart_Disease.git')
