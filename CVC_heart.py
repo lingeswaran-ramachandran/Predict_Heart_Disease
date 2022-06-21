@@ -96,6 +96,8 @@ df.isna().sum() # shows 2 NaNs
 df['thall'].fillna(df['thall'].mode()[0], inplace=True) # NaNs replaced with mode
 df.isna().sum() # shows 0 Nans
 
+# NaNs value of thall have been replaced with mode
+
 # Step 4) Feature Selection
 # cat = ['sex','cp','fbs','restecg','exng','slp','caa','output','thall']
 # con = ['age','trtbps','chol','thalachh','oldpeak']
@@ -232,4 +234,4 @@ print(accuracy_score(y_true,y_pred))
 #%% Discussion
 
 # Male have more chance to get heart attack than female
-
+# MMS + LogisticRegression is the best pipeline model
