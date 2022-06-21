@@ -6,17 +6,19 @@
 
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 
-Title : To predict emotion 
+Title : To predict the chance of a person having heart attack.
 
-Description : The objective of this project to model customer's review. The strategy to win customer support in 21st century was change. 
+Description : The objective of this project to predict the chance of a person having heart attack
 
 Result 
 
-# Sentiment Analysis
+# 
+
+# Predict Heart Disease
  Trained with over 60000 IMDB dataset to categorize positive and negative
 
 ## To include images
-![model_architecture](static/model.png)
+![boxplot](boxplot.png)
 
 ## To include ur link
 https://www.google.com
