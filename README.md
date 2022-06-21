@@ -12,10 +12,8 @@ Description : The objective of this project to predict the chance of a person ha
 
 Result 
 
-# 
-
 # Predict Heart Disease
- Trained with over 60000 IMDB dataset to categorize positive and negative
+ Trained with dataset to predict 
 
 ## To include images
 ![boxplot](boxplot.png)
