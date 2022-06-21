@@ -51,7 +51,7 @@ df = pd.read_csv(CSV_PATH)
 df.info() # to check for Null, 
 df.describe() 
 
-df.head() 
+df.head() # to print first 5 in data
 
 plt.figure(figsize=(20,20))
 df.boxplot() 
