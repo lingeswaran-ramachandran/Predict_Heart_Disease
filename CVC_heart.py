@@ -22,6 +22,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.svm import SVC
 from sklearn.metrics import classification_report, confusion_matrix
 from sklearn.metrics import accuracy_score
+from sklearn.model_selection import GridSearchCV
 
 def cramers_corrected_stat(confusion_matrix):
     """ calculate Cramers V statistic for categorial-categorial association.
@@ -49,7 +50,7 @@ df = pd.read_csv(CSV_PATH)
 # Step 2) Data Inspection
 
 df.info() # to check for Null, 
-df.describe() 
+df.describe() # to check mean, median, mode
 
 df.head() # to print first 5 in data
 
@@ -189,7 +190,7 @@ for i, pipeline in enumerate(pipelines):
         best_pipeline = pipeline
 print('The best combination of the pipeline is {} with accuracy of {}'.format(best_pipeline.steps,best_accuracy))
 
-from sklearn.model_selection import GridSearchCV
+# To fine tune the model
 
 # define model and parameters
 grid_param = [{'LogisticsClassifier__solver':['lbfgs','newton-cg','liblinear'],
@@ -235,3 +236,4 @@ print(accuracy_score(y_true,y_pred))
 
 # Male have more chance to get heart attack than female
 # MMS + LogisticRegression is the best pipeline model
+# Fine tuning give the same accuracy
